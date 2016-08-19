@@ -47,7 +47,7 @@
                             <rules>
                                 <requireFilesExist>
                                     <files>
-                                        <file>${basedir}/../libwfssl/Release/wfssl.dll</file>
+                                        <file>${basedir}/wfssl.dll</file>
                                     </files>
                                 </requireFilesExist>
                             </rules>
@@ -71,7 +71,7 @@
                             <outputDirectory>${basedir}/target/classes</outputDirectory>
                             <resources>
                                 <resource>
-                                    <directory>${basedir}/../libwfssl/Release/</directory>
+                                    <directory>${basedir}/</directory>
                                     <includes>
                                         <include>wfssl.dll</include>
                                     </includes>
